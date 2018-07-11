@@ -14,6 +14,6 @@
       name_book: Hướng dẫn Ruby on Rails
       book: Sách
     contact:
-        contact: Liên hệ
-        contact1: Liên hệ với chúng tôi về sample app tại
+        title_contact: Liên hệ
+        contact: Liên hệ với chúng tôi về sample app tại
   hello: "Xin chào thế giới"

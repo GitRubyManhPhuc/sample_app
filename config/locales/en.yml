@@ -45,6 +45,6 @@ en:
       name_book: "Ruby on Rails Tutorial"
       book: book
     contact:
-        contact: Contact
-        contact1: Contact the Ruby on Rails Tutorial about the sample app at the
+      title_contact: Contact
+      contact: "Contact the Ruby on Rails Tutorial about the sample app at the"
   hello: "Hello world"
