@@ -1,19 +1,31 @@
  vi:
   static_pages:
     home:
-      title: Ưng dụng mẫu
+      sam: Ưng dụng mẫu
+      title_home: Chào mừng bạn đến với Sample App
       home1: Đây là trang chủ
       home2: Rails Tutorial help section
       home3: ứng dụng cho mẫu
     help:
-      title_help: "Giúp đỡ"
-      help1: "Nhận sự giứp đỡ về Ruby on Rails tại"
-      help2: "Để được trợ giúp về ứng dụng này, hãy xem"
+      title_help: Giúp đỡ
+      help1: Nhận sự giứp đỡ về Ruby on Rails tại
+      help2: Để được trợ giúp về ứng dụng này, hãy xem
     about:
       title_about: Về chúng tôi
       name_book: Hướng dẫn Ruby on Rails
       book: Sách
     contact:
-        title_contact: Liên hệ
-        contact: Liên hệ với chúng tôi về sample app tại
+      title_contact: Liên hệ
+      contact: Liên hệ với chúng tôi về sample app tại
+  layouts:
+    application:
+      home: Trang chủ
+      login: Đăng nhập
+  users:
+    new:
+      signup: Đăng ký
+      detail: Đây là trang đăng ký cho người dùng mới.
+    login:
+      title_login: Đăng nhập
+      detail: Đây là trang đăng nhập.
   hello: "Xin chào thế giới"
