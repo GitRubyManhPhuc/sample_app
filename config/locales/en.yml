@@ -37,12 +37,16 @@ en:
       home1: This is the home page for the
       home2: Rails Tutorial help section
       home3: sample application.
+      new: News
+      by: by
+      english: English
+      viet: VietNamese
     help:
       title_help: Help
       help1: Get help on the Ruby on Rails Tutorial at the
       help2: To get help on this sample app, see the
     about:
-      title_about: About
+      title_about: About Us
       name_book: "Ruby on Rails Tutorial"
       book: book
     contact:
@@ -52,11 +56,30 @@ en:
     application:
       home: Home
       login: Login
+      logout: Logout
+      profile: Profile
+      setting: Setting
+      account: Accout
   users:
     new:
+      user: User
+      name: Name
+      email: Email
+      password: Password
+      password_confirmation: Password Confirmation
       signup: Sign up
       detail: This will be a singup page for new users.
+      warning: Please enter!
+      submit: Create my accout
     login:
       title_login: Login
       detail: This is page login.
+  shared:
+    _error_messages:
+      noti: Form contains
+      error: error
+  sessions:
+    new:
+      newuser: New user?
+      invalid: Invalid email/password combination
   hello: "Hello world!"
