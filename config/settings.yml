@@ -1,0 +1,5 @@
+maximum:
+  email_max: 255
+  name_max: 55
+minimum:
+  pass_min: 6
