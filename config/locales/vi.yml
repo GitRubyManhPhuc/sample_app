@@ -6,6 +6,10 @@
       home1: Đây là trang chủ
       home2: Rails Tutorial help section
       home3: ứng dụng cho mẫu
+      new: Mới
+      by: bởi
+      english: Tiếng Anh
+      viet: Tiếng Việt
     help:
       title_help: Giúp đỡ
       help1: Nhận sự giứp đỡ về Ruby on Rails tại
@@ -23,9 +27,19 @@
       login: Đăng nhập
   users:
     new:
+      name: Tên
+      email: Email
+      password: Mật khẩu
+      password_confirmation: Nhập lại mật khẩu
       signup: Đăng ký
       detail: Đây là trang đăng ký cho người dùng mới.
+      warning: Hãy nhập dúng mẫu!
+      submit: Tạo tài khoản
     login:
       title_login: Đăng nhập
       detail: Đây là trang đăng nhập.
+  shared:
+    _error_messages:
+      noti: Nội dung biểu mẫu
+      error: Có lỗi
   hello: "Xin chào thế giới"
