@@ -56,8 +56,13 @@ en:
     application:
       home: Home
       login: Login
+      logout: Logout
+      profile: Profile
+      setting: Setting
+      account: Accout
   users:
     new:
+      user: User
       name: Name
       email: Email
       password: Password
@@ -73,4 +78,8 @@ en:
     _error_messages:
       noti: Form contains
       error: error
+  sessions:
+    new:
+      newuser: New user?
+      invalid: Invalid email/password combination
   hello: "Hello world!"
