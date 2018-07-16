@@ -25,10 +25,15 @@
     application:
       home: Trang chủ
       login: Đăng nhập
+      logout: Đăng xuất
+      profile: Trang cá nhân
+      setting: Thiết lập
+      account: Tài khoản
   users:
     new:
+      user: Ngưòi dùng
       name: Tên
-      email: Email
+      email: Nhập email
       password: Mật khẩu
       password_confirmation: Nhập lại mật khẩu
       signup: Đăng ký
@@ -42,4 +47,8 @@
     _error_messages:
       noti: Nội dung biểu mẫu
       error: Có lỗi
+  sessions:
+    new:
+      newuser: Bạn chưa có tài khoản?
+      invalid: Email hoặc mật khẩu của bạn không hợp lệ!
   hello: "Xin chào thế giới"
