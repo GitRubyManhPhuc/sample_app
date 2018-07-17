@@ -72,6 +72,7 @@ en:
       warning: Please enter!
       submit: Create my accout
     login:
+      remember: Remember me on this computer
       title_login: Login
       detail: This is page login.
   shared:
