@@ -41,6 +41,7 @@
       warning: Hãy nhập dúng mẫu!
       submit: Tạo tài khoản
     login:
+      remember: Ghi nhớ đăng nhập trên máy tính này
       title_login: Đăng nhập
       detail: Đây là trang đăng nhập.
   shared:
