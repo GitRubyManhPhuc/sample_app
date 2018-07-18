@@ -30,6 +30,8 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  application:
+    title: "Ruby on Rails Tutorial Sample App"
   static_pages:
     home:
       sam: Sample App
@@ -75,6 +77,26 @@ en:
       remember: Remember me on this computer
       title_login: Login
       detail: This is page login.
+    edit:
+      title: Edit User
+      please_login: Please login to edit
+      confirm: Are you sure?
+      edit_user: Edit user
+      update: Update profile
+      save_edit: Save chenges!
+      edit_avatar: Change
+      updated: Profile updated
+      updatef: Can not update
+      danger: Login first!
+      confirm: You sure?
+
+    delete:
+      name: Delete
+      confirm: Are you sure want delete?
+      deleted: User deleted
+      deletef: Can not delete!
+  index:
+    all_user: All user
   shared:
     _error_messages:
       noti: Form contains

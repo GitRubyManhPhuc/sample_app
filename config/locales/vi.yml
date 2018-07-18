@@ -1,4 +1,6 @@
  vi:
+  application:
+    title: Hoc Rails Tutorial qua Sample App
   static_pages:
     home:
       sam: Ưng dụng mẫu
@@ -44,6 +46,24 @@
       remember: Ghi nhớ đăng nhập trên máy tính này
       title_login: Đăng nhập
       detail: Đây là trang đăng nhập.
+    edit:
+      title: Sửa thông tin
+      please_login: Hãy đăng nhập để sửa
+      confirm: Bạn có chắc muốn sửa?
+      edit_user: Sửa người dùng
+      update: Cập nhật thông tin
+      save_edit: Lưu lại
+      edit_avatar: Thay đổi
+      updated: Cập nhật thành công
+      updatef: Cập nhật thất bại
+      confirm: Bạn có chắc?
+    delete:
+      name: Xóa
+      confirm: Bạn có chắc muôn xóa?
+      deleted: Xóa thành công!
+      deletef: Xóa không thành công!
+    index:
+      all_user: Danh Sách Người Dùng
   shared:
     _error_messages:
       noti: Nội dung biểu mẫu
