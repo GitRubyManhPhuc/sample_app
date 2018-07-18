@@ -22,10 +22,12 @@ group :development do
   gem "spring-watcher-listen", "~> 2.0.0"
   gem "web-console", ">= 3.3.0"
 end
-
 gem "bcrypt", "3.1.12"
 gem "bootstrap-sass", "3.3.7"
+gem "kaminari"
+gem "bootstrap-kaminari-views"
 gem "config"
+gem "ffaker"
 gem "jquery-rails", "~> 4.3", ">= 4.3.3"
 gem "rubocop", "~> 0.54.0", require: false
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
