@@ -8,7 +8,7 @@ class UsersController < ApplicationController
     return if @user
     flash[:danger] = t "application.user_error"
     redirect_to root_url
-   end
+  end
 
   def new
     @user = User.new
@@ -17,9 +17,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t "static_pages.home.sam"
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t "user_mailer.account.checkemail"
+      redirect_to root_url
     else
       render :new
     end
@@ -60,7 +60,7 @@ class UsersController < ApplicationController
   def logged_in_user
     return if logged_in?
     store_location
-    flash[:danger] = t("users.edit.please_login")
+    flash[:danger] = t "users.edit.please_login"
     redirect_to login_path
   end
 
@@ -76,7 +76,7 @@ class UsersController < ApplicationController
   def find_user
     @user = User.find_by id: params[:id]
     return if @user
-    flash[:danger] = t(".error")
+    flash[:danger] = t "shared.error"
     redirect_to root_url
   end
 end

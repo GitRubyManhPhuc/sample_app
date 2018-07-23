@@ -72,4 +72,15 @@
     new:
       newuser: Bạn chưa có tài khoản?
       invalid: Email hoặc mật khẩu của bạn không hợp lệ!
+  user_mailer:
+    account:
+      hi: Xin chào
+      welcom: Chào mừng
+      active: Tài khoản đã kích hoạt!
+      active_error: Link kích hoạt lỗi!
+      message: Tài khoản chưa kích hoạt. Kiểm tra email đăng ký của bạn để kích hoạt
+      subject: Kích hoạt tài khoản
+      checkemail: Hãy kiểm tra email đăng ký của bạn để kích hoạt.
+      activate: Kích hoạt
+
   hello: "Xin chào thế giới"
