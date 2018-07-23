@@ -5,3 +5,4 @@ minimum:
   pass_min: 6
 size_avata: 80
 kaminari_per: 10
+expired: 2
