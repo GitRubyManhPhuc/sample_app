@@ -1,4 +1,9 @@
  vi:
+  welcom_login: Chào mừng bạn đến với web học Rails
+  reset_pass: Đặt lại mật khẩu
+  not_null: Không để trống
+  expired: Hết thời gian đặt lại mật khẩu
+  forgot_password: Quên mật khẩu
   application:
     title: Hoc Rails Tutorial qua Sample App
   static_pages:
@@ -12,6 +17,7 @@
       by: bởi
       english: Tiếng Anh
       viet: Tiếng Việt
+      sign_up_now: Đăng ký ngay
     help:
       title_help: Giúp đỡ
       help1: Nhận sự giứp đỡ về Ruby on Rails tại
@@ -82,5 +88,18 @@
       subject: Kích hoạt tài khoản
       checkemail: Hãy kiểm tra email đăng ký của bạn để kích hoạt.
       activate: Kích hoạt
-
+    password_reset:
+      to_reset: "Để đặt lại mật khẩu hãy click vào link sau:"
+      link_reset: " Link này chỉ có thời hạn trong 2 tiếng. Nếu bạn không thực hiện hành động này hãy bỏ qua email này và mật khẩu của bạn vẫn sẽ như cũ."
+  password_resets:
+    new:
+      forgot_pass: Quên mật khẩu
+      guide: Email đã đưọc gửi hãy kiểm tra và làm theo hướng dẫn
+      not_found: Email bạn nhập không tồn tại
+      submit: Gửi
+    edit:
+      submit: Đặt lại
+      reset_pass: Đặt lại mật khẩu
+    update:
+      reset_done: Mật khẩu đã đưọc đặt lại thành công
   hello: "Xin chào thế giới"
